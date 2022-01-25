@@ -5,11 +5,11 @@ const pay = Telegraf.on('text', async (ctx) => {
   if (ctx.update.message.text.split('?')[0] === 'https://telegram.me/BTC_CHANGE_BOT') {
     ctx.telegram.sendMessage(config.get('admin'), `
     ${ctx.message.text}
-Йоу, админ, тут @${ctx.session.order.buyer} купил ${ctx.session.order.item}. Чек выше
+ @${ctx.session.order.buyer} купил ${ctx.session.order.item}.
     `);
-    ctx.reply(`Теперь ты можешь написать @alestratovish в лс и забрать свой товар`, Markup.inlineKeyboard([
+    ctx.reply(`Теперь ты можешь написать @WoodyAdm в лс и забрать свой товар`, Markup.inlineKeyboard([
       Markup.button.callback('Вернуться в меню', 'menu'),
-      Markup.button.url('Написать админу', 'https://t.me/alestratovish'),
+      Markup.button.url('Написать админу', 'https://t.me/WoodyAdm'),
     ]));
     ctx.scene.leave();
   } else {
