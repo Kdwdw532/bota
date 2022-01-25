@@ -201,7 +201,7 @@ bot.action('paypal', async (ctx) => {
 (За подробностями - @WoodyAdm)
   `, Markup.inlineKeyboard([
     Markup.button.callback('Купить за BTC', `buy:paypal`),
-    Markup.button.callback('Назад', 'merchant')
+    Markup.button.callback('Назад', 'merchant-2d')
   ]));
 });
 
@@ -213,7 +213,7 @@ bot.action('US', async (ctx) => {
 (За подробностями - @WoodyAdm)
   `, Markup.inlineKeyboard([
     Markup.button.callback('Купить за BTC', `buy:US`),
-    Markup.button.callback('Назад', 'merchant')
+    Markup.button.callback('Назад', 'merchant-2d')
   ]));
 });
 
@@ -225,7 +225,7 @@ bot.action('GP', async (ctx) => {
 (За подробностями - @WoodyAdm)
   `, Markup.inlineKeyboard([
     Markup.button.callback('Купить за BTC', `buy:GP`),
-    Markup.button.callback('Назад', 'merchant')
+    Markup.button.callback('Назад', 'merchant-2d')
   ]));
 });
 
@@ -237,7 +237,7 @@ bot.action('EU', async (ctx) => {
 (За подробностями - @WoodyAdm)
   `, Markup.inlineKeyboard([
     Markup.button.callback('Купить за BTC', `buy:EU`),
-    Markup.button.callback('Назад', 'merchant')
+    Markup.button.callback('Назад', 'merchant-2d')
   ]));
 });
 
@@ -249,7 +249,7 @@ bot.action('World', async (ctx) => {
 (За подробностями - @WoodyAdm)
   `, Markup.inlineKeyboard([
     Markup.button.callback('Купить за BTC', `buy:World`),
-    Markup.button.callback('Назад', 'merchant')
+    Markup.button.callback('Назад', 'merchant-2d')
   ]));
 });
 
@@ -261,7 +261,7 @@ bot.action('BTC-EU', async (ctx) => {
 (За подробностями - @WoodyAdm)
   `, Markup.inlineKeyboard([
     Markup.button.callback('Купить за BTC', `buy:BTC-EU`),
-    Markup.button.callback('Назад', 'merchant')
+    Markup.button.callback('Назад', 'merchant-3d')
   ]));
 });
 
@@ -273,7 +273,7 @@ bot.action('RU', async (ctx) => {
 (За подробностями - @WoodyAdm)
   `, Markup.inlineKeyboard([
     Markup.button.callback('Купить за BTC', `buy:RU`),
-    Markup.button.callback('Назад', 'merchant')
+    Markup.button.callback('Назад', 'merchant-3d')
   ]));
 });
 
@@ -285,7 +285,7 @@ bot.action('3D-EU', async (ctx) => {
 (За подробностями - @WoodyAdm)
   `, Markup.inlineKeyboard([
     Markup.button.callback('Купить за BTC', `buy:3D-EU`),
-    Markup.button.callback('Назад', 'merchant')
+    Markup.button.callback('Назад', 'merchant-3d')
   ]));
 });
 
@@ -297,7 +297,7 @@ bot.action('RU-EU', async (ctx) => {
 (За подробностями - @WoodyAdm)
   `, Markup.inlineKeyboard([
     Markup.button.callback('Купить за BTC', `buy:RU-EU`),
-    Markup.button.callback('Назад', 'merchant')
+    Markup.button.callback('Назад', 'merchant-3d')
   ]));
 });
 
@@ -309,7 +309,7 @@ bot.action('Workd-3D', async (ctx) => {
 (За подробностями - @WoodyAdm)
   `, Markup.inlineKeyboard([
     Markup.button.callback('Купить за BTC', `buy:Workd-3D`),
-    Markup.button.callback('Назад', 'merchant')
+    Markup.button.callback('Назад', 'merchant-3d')
   ]));
 });
 
